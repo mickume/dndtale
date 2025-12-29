@@ -124,7 +124,7 @@ the columns (MM p.269).
 ```markdown
 ---
 title: grand-hall              # Output filename prefix (required)
-aspect_ratio: "16:9"           # Options: 16:9, 9:16, 1:1, 4:3, 3:4
+aspect_ratio: "4:3"            # Options: 16:9, 9:16, 1:1, 4:3, 3:4
 resolution: 2K                 # Options: 1K, 2K, 4K
 instructions: dark-fantasy.md  # Optional style instructions file
 ---

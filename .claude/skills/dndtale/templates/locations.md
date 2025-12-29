@@ -20,6 +20,8 @@ These locations are central to the campaign and appear in multiple chapters.
 
 [2-3 paragraph description of the location. What is it? Why is it important? What's its role in the story?]
 
+![Location Name](art/location-name.png)
+
 #### Atmosphere & Mood
 
 [How should this location feel? What emotions should it evoke?]

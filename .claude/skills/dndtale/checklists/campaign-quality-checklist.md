@@ -29,12 +29,14 @@ Use this checklist to ensure your campaign is complete, consistent, and ready to
   - [ ] Supporting NPCs included
   - [ ] Stat blocks or references provided
   - [ ] Roleplaying notes included
+  - [ ] Prompts for each NPC to aide image/character sheet creation
 
 - [ ] **locations.md** exists and contains all key locations
   - [ ] 3-5 major locations fully detailed
   - [ ] Supporting locations included
   - [ ] Travel times and connections noted
   - [ ] Maps or descriptions provided
+  - [ ] Prompts for each loaction to aide image creation
 
 - [ ] **factions.md** exists (if campaign includes factions)
   - [ ] 2+ factions detailed

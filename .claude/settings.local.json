@@ -3,7 +3,8 @@
     "allow": [
       "WebFetch(domain:code.claude.com)",
       "Skill(dndtale)",
-      "Bash(mkdir:*)"
+      "Bash(mkdir:*)",
+      "Bash(ls:*)"
     ],
     "deny": [],
     "ask": []
