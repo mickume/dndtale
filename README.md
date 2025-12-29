@@ -1,35 +1,52 @@
-# Dndtale - DnD Campaign & Adventure Creator
+# DnDtale - Enhanced D&D Campaign Creation Skill
 
-Dndtale is a specialized skill designed to assist Dungeon Masters and creative content creators in building complete, engaging Dungeons & Dragons campaigns and adventures.
+A comprehensive, modular skill for creating D&D campaigns with Claude Code.
 
-## What Dndtale Does
+## What Was Improved
 
-This skill helps you:
+### 1. Modular Structure ✓
 
-- **Design Campaigns** - Create cohesive multi-adventure story arcs with interconnected plots, factions, and long-term consequences
-- **Develop Adventures** - Build single adventures with clear story structure, pacing, and multiple resolution paths
-- **Create NPCs** - Design memorable non-player characters with motivations, secrets, and meaningful interactions
-- **Design Encounters** - Balance combat encounters with appropriate difficulty, tactical terrain, and interesting mechanics
-- **Build Worlds** - Develop campaign settings with history, culture, geography, and immersive atmosphere
-- **Craft Stories** - Structure narrative beats, story hooks, and dramatic moments that engage your table
+The skill has been reorganized from 2 monolithic files into a comprehensive library with 20 markdown documents.
 
-## When to Use Dndtale
+### 2. Reusable Templates ✓
 
-Invoke this skill when you're:
+Six comprehensive templates for every campaign document.
 
-- Planning a new D&D campaign or adventure
-- Designing encounters, NPCs, or locations
-- Brainstorming story ideas and narrative hooks
-- Building custom worlds and lore
-- Refining adventure pacing and encounters
-- Creating handouts, maps, or player-facing materials
+### 3. Sample Campaign ✓
 
-## Key Capabilities
+**"The Stolen Flame"** - A complete one-shot adventure demonstrating all templates.
 
-- Generates balanced encounter designs
-- Creates compelling narrative structures
-- Develops rich NPC backstories and motivations
-- Designs engaging locations and dungeon layouts
-- Builds faction systems and political intrigue
-- Creates loot tables and magical item encounters
-- Develops session-by-session adventure breakdowns
+### 4. Step-by-Step Workflows ✓
+
+Two comprehensive workflows guiding creation and iteration.
+
+### 5. Quality Checklists ✓
+
+Two detailed checklists ensuring completeness and consistency.
+
+## Structure
+
+```
+.claude/skills/dndtale/
+├── SKILL.md                    # Main entry point
+├── STRUCTURE.md                # D&D conventions reference
+├── modules/                    # Focused guidance (3 files)
+├── templates/                  # Reusable templates (6 files)
+├── workflows/                  # Step-by-step processes (2 files)
+├── checklists/                # Quality assurance (2 files)
+└── examples/the-stolen-flame/  # Complete sample campaign (5 files)
+```
+
+## How to Use
+
+1. Invoke the skill: `/dndtale`
+2. Describe your campaign idea
+3. Claude follows the workflows automatically
+4. Templates are used for all documents
+5. Quality checks ensure completeness
+
+See `.claude/skills/dndtale/SKILL.md` for full documentation.
+
+---
+
+**The DnDtale skill is ready to create legendary campaigns!** 🐉
