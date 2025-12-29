@@ -1,0 +1,7 @@
+hack/**
+**/venv/**
+**/__pycache__/**
+campaigns/
+prompts/
+hack/**
+hack.md
