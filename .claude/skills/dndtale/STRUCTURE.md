@@ -52,7 +52,8 @@ Each chapter typically includes:
 - Puzzles/traps
 
 #### NPCs
-- Stat blocks or references
+- Description of the NPC if it is unique, i.e. not based on typical DnD 5e canon.
+- Stat blocks or references to DnD canon (source books)
 - Personality traits
 - Motivations and goals
 - Roleplay guidance
@@ -104,7 +105,8 @@ Each chapter typically includes:
 
 **Location/Scene Prompts**
 - Very detailled and verbose description, it has inspire the player's imagination, based on the description created for the DM.
-- An individual file markdown for each location with the following format:
+- Used to create artwork to illustrate the location/scene
+- An individual file markdown for each location/scene with the following format:
 
 ```markdown
 ---
@@ -135,4 +137,4 @@ Your detailled and verbose description, it has to inspire the player's imaginati
 
 ## Other conventions
 
-In order to help naviagting the documents and to support potential HTML/pdf/ebook export, insert markdown links between documents or sections within the documents.
+In order to help navigating the documents and to support potential HTML/pdf/ebook export, insert markdown links between documents or between sections within a document.

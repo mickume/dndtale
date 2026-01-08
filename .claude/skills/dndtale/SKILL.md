@@ -1,5 +1,5 @@
 ---
-name: Dndtale
+name: dndtale
 description: A comprehensive DnD campaign and adventure creation skill for game masters and creative content creators. Helps design complete campaigns, adventures, NPCs, encounters, maps, and storylines tailored for tabletop play. Use this when designing D&D content, creating campaign worlds, developing adventure hooks, designing encounters, or building narrative structures for player tables.
 ---
 
@@ -85,11 +85,14 @@ campaigns/[campaign-name]/
 ├── briefing.md                  # Player-facing session zero document (spoiler-free)
 ├── chapter-01.md                # Detailed session content
 ├── chapter-02.md                # Continue for each chapter/session
+├── chapters-summary.md          # Chapter/Scene-level summaries for all chapters of the campaign
 ├── npcs.md                      # Important characters with stats and motivations
 ├── locations.md                 # Key places with descriptions
 ├── factions.md                  # Organizations and their goals (optional)
 └── art/                         # Image prompts and artwork
-    ├── [scene-name].md          # Image generation prompts
+    ├── [scene-name].md          # Image generation prompts for scenes
+    ├── [location-name].md       # Image generation prompts for locations/environment
+    ├── [npc-name].md            # Image generation prompts for unique NPCs
     └── [generated-images]       # Actual images (if generated)
 ```
 
@@ -137,28 +140,30 @@ Complete sample campaigns demonstrating all templates:
 
 ### Creating a New Campaign
 
-**Phase 1: Gather Requirements** (15-30 minutes)
+**Phase 1: Gather Requirements**
 1. Use TodoWrite to create planning checklist
 2. Use AskUserQuestion if briefing incomplete
 3. Collect: story idea, length, level, setting, tone
 
-**Phase 2: Campaign Framework** (1-2 hours)
+**Phase 2: Campaign Framework** 
 1. Choose campaign type (see [modules/campaign-types.md](modules/campaign-types.md))
 2. Create campaign-overview.md (use [template](templates/campaign-overview.md))
 3. Plan chapter breakdown
-4. Identify 3-5 major NPCs and locations
+4. Create chapters-summary.md (use [template](templates/chapters-summary.md))
+5. Identify major NPCs and locations
 
-**Phase 3: Detailed Development** (3-5 hours for short campaign)
+**Phase 3: Detailed Development** 
 1. Write each chapter (use [template](templates/chapter-template.md))
 2. Detail NPCs (use [template](templates/npcs.md))
 3. Detail locations (use [template](templates/locations.md))
 4. Create factions if needed (use [template](templates/factions.md))
+5. Create 
 
-**Phase 4: Player-Facing Content** (30-60 minutes)
+**Phase 4: Player-Facing Content** 
 1. Write briefing.md (use [template](templates/briefing.md))
-2. Ensure NO SPOILERS in briefing
+2. Ensure there are NO SPOILERS in the briefing
 
-**Phase 5: Polish & QA** (1-2 hours)
+**Phase 5: Polish & QA** 
 1. Create image prompts for key scenes
 2. Run through [campaign-quality-checklist.md](checklists/campaign-quality-checklist.md)
 3. Read entire campaign for flow and consistency

@@ -88,7 +88,7 @@ Using [templates/campaign-overview.md](../templates/campaign-overview.md):
 
 **3.2: Write Adventure Synopsis**
 - High-level overview of the story
-- Major story beats (Act 1, Act 2, Act 3)
+- Major story beats (Chapter 1, Chapter 2, Chapter 3)
 - Key decision points
 
 **3.3: Create Adventure Hooks**
@@ -372,6 +372,7 @@ campaigns/[campaign-name]/
 ├── chapter-01.md
 ├── chapter-02.md
 ├── [additional chapters]
+├── chapters-summary.md
 ├── npcs.md
 ├── locations.md
 ├── factions.md

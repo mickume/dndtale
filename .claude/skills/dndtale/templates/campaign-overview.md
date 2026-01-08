@@ -18,9 +18,9 @@
 
 ### Major Story Beats
 
-1. **[Act 1 Name]:** [What happens in the first act]
-2. **[Act 2 Name]:** [What happens in the second act]
-3. **[Act 3 Name]:** [What happens in the climax]
+1. **[Chapter 1 Name]:** [What happens in the first chapter]
+2. **[Chapter 2 Name]:** [What happens in the second chapter]
+3. **[Chapter 3 Name]:** [What happens in the final chapter (climax)]
 
 ---
 
