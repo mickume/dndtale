@@ -243,7 +243,7 @@ Using [templates/factions.md](../templates/factions.md):
 
 ### Step 9: Write Briefing Document
 
-Using [templates/briefing.md](../templates/briefing.md):
+Using [templates/README.md](../templates/README.md):
 
 **9.1: Campaign Overview**
 - Spoiler-free description
@@ -379,7 +379,7 @@ Ensure proper structure:
 ```
 campaigns/[campaign-name]/
 ├── campaign-overview.md
-├── briefing.md
+├── README.md
 ├── chapter-01.md
 ├── chapter-02.md
 ├── [additional chapters]

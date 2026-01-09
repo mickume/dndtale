@@ -289,7 +289,7 @@ For the full stat block, see [Appendix A: NPCs](npcs.md#mira-thorne).
 
 ```
 campaign-overview.md        # Main campaign document
-briefing.md                 # Player-facing session zero
+README.md                 # Player-facing session zero
 chapter-01.md               # Individual chapters/sessions
 chapter-02.md
 npcs.md                     # NPC roster

@@ -16,7 +16,7 @@ Use this checklist to ensure your campaign is complete, consistent, and ready to
   - [ ] Climax and resolution described
   - [ ] Character advancement guidance provided
 
-- [ ] **briefing.md** exists and is complete (player-facing)
+- [ ] **README.md** exists and is complete (player-facing)
   - [ ] Campaign overview (spoiler-free)
   - [ ] Essential information (level, length, tone)
   - [ ] Setting information

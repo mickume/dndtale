@@ -84,7 +84,7 @@ campaigns/[campaign-name]/
 ├── campaign-overview.md         # Master document with full campaign arc
 └── changelog/                   # Changelogs
     └── [change-name].md         # Documented changes to the campaign
-├── briefing.md                  # Player-facing session zero document (spoiler-free)
+├── README.md                  # Player-facing session zero document (spoiler-free)
 ├── chapter-01.md                # Detailed session content
 ├── chapter-02.md                # Continue for each chapter/session
 ├── chapters-summary.md          # Chapter/Scene-level summaries for all chapters of the campaign
@@ -110,7 +110,7 @@ Use these as starting points for all campaign documents:
 - **[chapter-template.md](templates/chapter-template.md)** - Individual session structure
 - **[chapters-summary.md](templates/chapters-summary.md)** - Scene-level overview for all chapters of the campaign
 - **[timeline.md](templates/timeline.md)** - Timeline of events in the campaign
-- **[briefing.md](templates/briefing.md)** - Player-facing session zero document
+- **[README.md](templates/README.md)** - Player-facing session zero document
 - **[npcs.md](templates/npcs.md)** - NPC roster and details
 - **[locations.md](templates/locations.md)** - Location descriptions and maps
 - **[factions.md](templates/factions.md)** - Organizations and politics
@@ -165,7 +165,7 @@ Complete sample campaigns demonstrating all templates:
 5. Create 
 
 **Phase 4: Player-Facing Content** 
-1. Write briefing.md (use [template](templates/briefing.md))
+1. Write README.md (use [template](templates/README.md))
 2. Ensure there are NO SPOILERS in the briefing
 
 **Phase 5: Polish & QA** 
@@ -252,7 +252,7 @@ Complete sample campaigns demonstrating all templates:
 
 Unless stated otherwise, campaigns are written for consenting adults. When content might be disturbing or NSFW:
 
-- Include content warnings in briefing.md
+- Include content warnings in README.md
 - Suggest Session Zero discussion topics
 - Recommend safety tools (X-Card, Lines & Veils)
 - Clearly mark mature content
@@ -388,7 +388,7 @@ You:
 3. Choose campaign type: Sandbox (city hub with multiple quest lines)
 4. Create campaign-overview.md from template
 5. Create 3 chapters, npcs.md, locations.md
-6. Create briefing.md for players
+6. Create README.md for players
 7. Run quality checklist
 8. Deliver organized campaign
 ```
