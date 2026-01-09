@@ -147,6 +147,10 @@ Ask the DM when:
 - If changing content, update references
 - If removing content, remove dead links
 
+**6.4: Document changes**
+- Create a new markdown document in folder ./changelog
+- Document all changes made to the campaign
+
 ### Step 7: Preserve Story Logic
 
 **While editing, ensure:**

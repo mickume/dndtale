@@ -56,6 +56,7 @@ Questions to ask:
 - [ ] Choose campaign type
 - [ ] Create campaign overview
 - [ ] Design chapters
+- [ ] Create a timeline of events in the chapters
 - [ ] Detail NPCs
 - [ ] Detail locations
 - [ ] Create factions
@@ -151,6 +152,7 @@ For each chapter, using [templates/chapter-template.md](../templates/chapter-tem
 - Synopsis
 - Objectives (primary, secondary, optional)
 - Expected duration
+- Time of the events in the chapter
 
 **5.2: Break Into Scenes**
 - Each chapter should have 3-5 scenes
@@ -312,6 +314,12 @@ Detailed visual description based on scene...
 - Random NPCs
 - Treasure tables
 
+Using [templates/timeline.md](../templates/timeline.md):
+
+**11.4: Timeline**
+- Sequential timeline of events in the campaign, ordered by chapter and scene
+- List of important events and their time the DM should know about
+
 ---
 
 ## Phase 6: Quality Assurance
@@ -356,6 +364,9 @@ Use [checklists/campaign-quality-checklist.md](../checklists/campaign-quality-ch
 **13.3: DM Notes**
 - Add any missing tips or guidance
 - Include common pitfalls and solutions
+
+**13.4: Timeline**
+- Verify the timeline and update timeline.md if there are inconsistencies
 
 ---
 

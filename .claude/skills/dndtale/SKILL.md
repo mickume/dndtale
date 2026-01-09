@@ -82,6 +82,8 @@ Every campaign should follow this structure:
 ```
 campaigns/[campaign-name]/
 ├── campaign-overview.md         # Master document with full campaign arc
+└── changelog/                   # Changelogs
+    └── [change-name].md         # Documented changes to the campaign
 ├── briefing.md                  # Player-facing session zero document (spoiler-free)
 ├── chapter-01.md                # Detailed session content
 ├── chapter-02.md                # Continue for each chapter/session
@@ -89,11 +91,12 @@ campaigns/[campaign-name]/
 ├── npcs.md                      # Important characters with stats and motivations
 ├── locations.md                 # Key places with descriptions
 ├── factions.md                  # Organizations and their goals (optional)
+├── timeline.md                  # Timeline of events in the campaign (optional)
 └── art/                         # Image prompts and artwork
     ├── [scene-name].md          # Image generation prompts for scenes
     ├── [location-name].md       # Image generation prompts for locations/environment
     ├── [npc-name].md            # Image generation prompts for unique NPCs
-    └── [generated-images]       # Actual images (if generated)
+    └── [generated-images.jpg]   # Actual artwork *.jpg (if generated)
 ```
 
 ---
@@ -105,6 +108,8 @@ Use these as starting points for all campaign documents:
 
 - **[campaign-overview.md](templates/campaign-overview.md)** - Master campaign document
 - **[chapter-template.md](templates/chapter-template.md)** - Individual session structure
+- **[chapters-summary.md](templates/chapters-summary.md)** - Scene-level overview for all chapters of the campaign
+- **[timeline.md](templates/timeline.md)** - Timeline of events in the campaign
 - **[briefing.md](templates/briefing.md)** - Player-facing session zero document
 - **[npcs.md](templates/npcs.md)** - NPC roster and details
 - **[locations.md](templates/locations.md)** - Location descriptions and maps

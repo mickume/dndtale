@@ -24,6 +24,9 @@ Use this checklist to ensure your campaign is complete, consistent, and ready to
   - [ ] Session Zero topics covered
   - [ ] No spoilers included
 
+- [ ] **chapters-summary.md** exists and is complete (if campaign has multiple chapters)
+  - [ ] Chapters and scenes listed
+
 - [ ] **npcs.md** exists and contains all important NPCs
   - [ ] 3-5 major NPCs fully detailed
   - [ ] Supporting NPCs included
@@ -42,6 +45,9 @@ Use this checklist to ensure your campaign is complete, consistent, and ready to
   - [ ] 2+ factions detailed
   - [ ] Goals and relationships defined
   - [ ] Reputation system explained
+
+- [ ] **timeline.md** exists and is complete (if campaign has multiple chapters)
+  - [ ] Chapters and scenes listed in chronological order
 
 ### Chapter Documents
 
@@ -80,6 +86,7 @@ At minimum, a campaign should have:
 - [ ] Briefing document
 - [ ] Key NPCs documented
 - [ ] Key locations documented
+- [ ] Artwork prompts for all key NPCs and locations
 
 ---
 
@@ -99,6 +106,7 @@ At minimum, a campaign should have:
   - [ ] Chapters link to NPCs document
   - [ ] Chapters link to locations document
   - [ ] Chapters link to each other
+  - [ ] Artwork prompt documents exists for referenced artwork
 
 - [ ] NPC references are accurate
   - [ ] NPCs appear in chapters where stated

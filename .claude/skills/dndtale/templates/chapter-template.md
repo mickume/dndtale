@@ -3,7 +3,7 @@
 **Session(s):** [Expected number of sessions]
 **Level:** [Party level for this chapter]
 **Expected Duration:** [2-4 hours typical session]
-
+**Time:** [How much time passes (hours,days,weeks), or, when does this happen (specific time or day/date)?]
 ---
 
 ## Chapter Overview

@@ -1,6 +1,6 @@
 # Complete Chapter Summaries
 
-**How to Use This Document**: This provides scene-level summaries for all chapters of the campaign. For detailed scene-by-scene breakdowns with full stat blocks, dialog suggestions, and skill checks, see the individual chapter files (chapter-01.md, etc.). Use these summaries for campaign planning and quick reference.
+**How to Use This Document**: This provides scene-level overview for all chapters of the campaign. For detailed scene-by-scene breakdowns with full stat blocks, dialog suggestions, and skill checks, see the individual chapter files (chapter-01.md, etc.). Use these summaries for campaign planning and quick reference.
 
 ---
 

@@ -70,7 +70,9 @@ When mentioning factions:
 - [ ] Events happen in logical chronological order
 - [ ] "Before" events actually happen before
 - [ ] "After" events actually happen after
-- [ ] No circular time dependencies
+- [ ] "At the same time" events are possible if there are multiple storylines
+- [ ] No circular time dependencies or causal loops
+- [ ] Avoid time-travel paradoxes like the 'Grandfather Paradox'
 
 ### Knowledge Consistency
 
@@ -91,6 +93,7 @@ For each NPC, check:
 
 - [ ] Travel time consistent with distances
 - [ ] Events take reasonable amount of time
+- [ ] Actions take reasonable amount of time
 - [ ] No impossible timing (can't be in two places at once)
 - [ ] Seasons change appropriately
 - [ ] Age references remain consistent
@@ -207,6 +210,7 @@ For each NPC, check:
 - [ ] All section links (#anchors) work
 - [ ] No broken links to removed content
 - [ ] References to "Chapter X" have correct chapter number
+- [ ] All artwork links have a matching prompt markdown file
 
 ### Content References
 
@@ -348,7 +352,7 @@ For each change, ask:
 Use this workflow for major updates:
 
 ### 1. Create Change Log
-Document what you're changing and why
+Document what you're changing and why. Create a document in ./chagelog for this.
 
 ### 2. Map Dependencies
 List all content that might be affected
@@ -380,6 +384,7 @@ When you change:
 - [ ] campaign-overview.md (key NPCs section)
 - [ ] factions.md (if they're faction member)
 - [ ] locations.md (if they're associated with location)
+- [ ] art/npc-name.md if description changed
 
 ### A Location:
 - [ ] locations.md
@@ -387,6 +392,7 @@ When you change:
 - [ ] campaign-overview.md (key locations section)
 - [ ] Other locations (for travel times, connections)
 - [ ] npcs.md (if NPCs are stationed there)
+- [ ] art/location-name.md if description changed
 
 ### A Chapter:
 - [ ] The chapter file itself
