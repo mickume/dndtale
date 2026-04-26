@@ -13,7 +13,7 @@ Dndtale is a specialized skill designed to assist Dungeon Masters and creative c
 
 ### For New Campaigns
 
-1. **Use TodoWrite** immediately to create a planning checklist
+1. **Use TaskCreate** immediately to create a planning checklist
 2. **Follow the workflow:** [workflows/campaign-creation-workflow.md](workflows/campaign-creation-workflow.md)
 3. **Use AskUserQuestion** to gather requirements if not provided
 4. **Use templates:** All templates are in [templates/](templates/)
@@ -48,11 +48,18 @@ This skill helps you create:
 
 ## Core Principles
 
+### Creative Voice
+- Write with evocative, atmospheric prose — lead with mood, not measurements (see [creative-voice.md](modules/creative-voice.md))
+- Engage multiple senses in every scene description
+- Give every NPC a want, a speech pattern, and an opinion
+- Design encounters as drama engines, not math problems
+
 ### Player Agency First
 - Always provide multiple solutions to problems
-- Design consequences that matter
+- Design consequences that matter and ripple forward
 - Avoid railroading (forced single paths)
 - Let player choices shape the story
+- Character backstories are campaign fuel — weave them in
 
 ### Usability at the Table
 - Write clear, scannable DM notes
@@ -67,11 +74,12 @@ This skill helps you create:
 - Check dependencies when changing content
 
 ### Use the Right Tools
-- **TodoWrite:** Track complex campaign creation tasks
+- **TaskCreate/TaskUpdate:** Track complex campaign creation tasks
 - **AskUserQuestion:** Clarify requirements and gather preferences
 - **Read:** Always read existing files before editing
 - **Edit:** Make targeted changes to existing content
 - **Write:** Create new files from templates
+- **dndig:** Generate campaign artwork (see [dndig-reference.md](modules/dndig-reference.md))
 
 ---
 
@@ -118,9 +126,14 @@ Use these as starting points for all campaign documents:
 ### Modules
 Reference these for detailed guidance:
 
+- **[creative-voice.md](modules/creative-voice.md)** - Creative identity, voice guidelines, writing philosophy
 - **[campaign-types.md](modules/campaign-types.md)** - Linear, Sandbox, Event-Based, Setting-Based
-- **[world-building.md](modules/world-building.md)** - Creating settings, NPCs, and interactions
+- **[world-building.md](modules/world-building.md)** - Settings, NPCs, villain design, moral complexity, themes
+- **[encounter-design.md](modules/encounter-design.md)** - Encounter philosophy, checklist, variety matrix, boss design
+- **[session-pacing.md](modules/session-pacing.md)** - Session arc, dramatic structure, pacing tools
+- **[literary-adaptation.md](modules/literary-adaptation.md)** - Adapting novels, films, mythology into campaigns
 - **[formatting-conventions.md](modules/formatting-conventions.md)** - How to format all content
+- **[dndig-reference.md](modules/dndig-reference.md)** - AI image generation tool reference
 
 ### Workflows
 Step-by-step processes for different tasks:
@@ -131,6 +144,7 @@ Step-by-step processes for different tasks:
 ### Checklists
 Quality assurance for your work:
 
+- **[campaign-research-checklist.md](checklists/campaign-research-checklist.md)** - Pre-creation foundation and research checklist
 - **[campaign-quality-checklist.md](checklists/campaign-quality-checklist.md)** - Ensure completeness, balance, and quality
 - **[consistency-checklist.md](checklists/consistency-checklist.md)** - Maintain consistency when making changes
 
@@ -146,30 +160,32 @@ Complete sample campaigns demonstrating all templates:
 ### Creating a New Campaign
 
 **Phase 1: Gather Requirements**
-1. Use TodoWrite to create planning checklist
+1. Use TaskCreate to build a planning checklist
 2. Use AskUserQuestion if briefing incomplete
 3. Collect: story idea, length, level, setting, tone
+4. If adapting source material, follow [literary-adaptation.md](modules/literary-adaptation.md)
+5. Complete [campaign-research-checklist.md](checklists/campaign-research-checklist.md)
 
 **Phase 2: Campaign Framework** 
 1. Choose campaign type (see [modules/campaign-types.md](modules/campaign-types.md))
 2. Create campaign-overview.md (use [template](templates/campaign-overview.md))
-3. Plan chapter breakdown
+3. Plan chapter breakdown with session pacing (see [session-pacing.md](modules/session-pacing.md))
 4. Create chapters-summary.md (use [template](templates/chapters-summary.md))
 5. Identify major NPCs and locations
 
 **Phase 3: Detailed Development** 
-1. Write each chapter (use [template](templates/chapter-template.md))
-2. Detail NPCs (use [template](templates/npcs.md))
-3. Detail locations (use [template](templates/locations.md))
-4. Create factions if needed (use [template](templates/factions.md))
-5. Create 
+1. Write each chapter using [creative-voice.md](modules/creative-voice.md) for writing quality
+2. Design encounters using [encounter-design.md](modules/encounter-design.md) for variety and depth
+3. Detail NPCs using tiered framework in [world-building.md](modules/world-building.md)
+4. Detail locations (use [template](templates/locations.md))
+5. Create factions if needed (use [template](templates/factions.md))
 
 **Phase 4: Player-Facing Content** 
 1. Write README.md (use [template](templates/README.md))
 2. Ensure there are NO SPOILERS in the briefing
 
 **Phase 5: Polish & QA** 
-1. Create image prompts for key scenes
+1. Create image prompts for key scenes using [dndig-reference.md](modules/dndig-reference.md)
 2. Run through [campaign-quality-checklist.md](checklists/campaign-quality-checklist.md)
 3. Read entire campaign for flow and consistency
 
@@ -191,10 +207,10 @@ Complete sample campaigns demonstrating all templates:
 
 ### Always Do This
 
-**Use TodoWrite for Complex Tasks**
-- Create planning checklist immediately
+**Use TaskCreate/TaskUpdate for Complex Tasks**
+- Create planning checklist immediately with TaskCreate
 - Track progress through creation phases
-- Mark tasks completed as you finish them
+- Mark tasks completed with TaskUpdate as you finish them
 - Keep exactly ONE task in_progress at a time
 
 **Ask Questions When Needed**
@@ -310,26 +326,30 @@ Follow conventions in [modules/formatting-conventions.md](modules/formatting-con
 See: [modules/campaign-types.md](modules/campaign-types.md)
 
 ### Encounter Design
-- Mix combat, social, and exploration
-- Multiple solutions always
-- Appropriate difficulty for level
-- Meaningful consequences
+- Every fight answers: *"Why is this fight happening, and what changes when it's over?"*
+- Terrain is the third combatant — environment should force choices
+- Give enemies goals beyond "kill the party" (escape, protect, buy time, capture)
+- Use the Encounter Design Checklist: dramatic question, stakes, environment, multiple approaches, escalation, connection
+- Track variety with the Encounter Variety Matrix (combat/social/exploration/hybrid subtypes)
+- Boss fights need phases, legendary actions, emotional stakes, and multiple victory conditions
+
+See: [modules/encounter-design.md](modules/encounter-design.md)
 
 ### NPC Design
-- Appearance, personality, mannerisms
-- Wants (surface goal) and needs (deeper motivation)
-- Secrets and relationships
-- Stat block or reference
+- **Tier 1 (Walk-On):** One trait, one useful thing, a rememberable name
+- **Tier 2 (Recurring):** Want vs. need, opinions about other NPCs, a secret, speech patterns
+- **Tier 3 (Major):** Full inner life, independent arc, mechanical weight, voice, relationship web
+- **Villains:** Motivation, Method, Vulnerability, Escalation, Mirror
 
-See: [templates/npcs.md](templates/npcs.md)
+See: [modules/world-building.md](modules/world-building.md), [templates/npcs.md](templates/npcs.md)
 
 ### Location Design
 - Atmosphere (sights, sounds, smells, feel)
-- History and current situation
+- History and current situation — use environmental storytelling
 - NPCs present and encounters
-- Secrets to discover
+- Secrets to discover — layered puzzles that reward curiosity
 
-See: [templates/locations.md](templates/locations.md)
+See: [modules/world-building.md](modules/world-building.md), [templates/locations.md](templates/locations.md)
 
 ---
 
@@ -350,28 +370,45 @@ See: [templates/locations.md](templates/locations.md)
 
 ---
 
-## Image Generation Integration
+## Image Generation with dndig
 
-Create detailed prompts for AI image generation (reference `dndig` tool if available):
+Use **dndig** (`../dndig`) to generate campaign artwork from prompt files. See [dndig-reference.md](modules/dndig-reference.md) for complete documentation.
 
-**Format:**
+**Quick usage:**
+```bash
+dndig campaigns/my-campaign/art/throne-room.md --verbose
+```
+
+**Prompt file format:**
 ```markdown
 ---
-title: filename-prefix
+title: throne-room
 aspect_ratio: "16:9"
 resolution: 2K
-instructions: optional-style-file.md
+temperature: 0.8
+batch: 2
+instructions: campaign-style.md
+references:
+  - refs/gothic-castle.jpg
 ---
 
 Detailed visual description based on scene read-aloud text...
-Include: composition, lighting, mood, style
+Include: composition, lighting, mood, style, atmosphere.
 ```
 
+**Key features:**
+- **Style consistency:** Create a shared `instructions` file for the campaign's visual style
+- **Reference images:** Up to 14 reference images for style grounding (character consistency, architectural style)
+- **Batch generation:** Generate 1–4 variations per prompt
+- **Aspect ratios:** `1:1`, `2:3`, `3:2`, `3:4`, `4:3`, `4:5`, `5:4`, `9:16`, `16:9`, `21:9`
+- **Resolutions:** `512px`, `1K`, `2K`, `4K`
+
 **Create prompts for:**
-- Key locations and scenes
-- Important NPCs
-- Climactic encounters
-- Maps (as needed)
+- Key locations and scenes (`16:9` or `4:3` at `2K`)
+- Important NPCs and character portraits (`2:3` or `3:4` at `2K`)
+- Climactic encounters (`16:9` at `2K`)
+- Maps and dungeons (`1:1` or `4:3` at `2K`+)
+- Items and artifacts (`1:1` at `1K`)
 
 ---
 
@@ -383,14 +420,15 @@ Include: composition, lighting, mood, style
 DM: "I want to create a 3-session campaign about smugglers in a port city"
 
 You:
-1. TodoWrite: Create planning checklist
+1. TaskCreate: Create planning checklist
 2. AskUserQuestion: Clarify tone, starting level, player count
 3. Choose campaign type: Sandbox (city hub with multiple quest lines)
 4. Create campaign-overview.md from template
 5. Create 3 chapters, npcs.md, locations.md
 6. Create README.md for players
 7. Run quality checklist
-8. Deliver organized campaign
+8. Create image prompts and generate art with dndig
+9. Deliver organized campaign
 ```
 
 ### Example: Updating Existing Campaign

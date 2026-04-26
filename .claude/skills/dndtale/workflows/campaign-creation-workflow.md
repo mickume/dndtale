@@ -14,6 +14,7 @@ This workflow guides you through creating a complete D&D campaign from initial c
 - Starting level and number of players
 - World backdrop (classic D&D, custom, sci-fi, etc.)
 - Tone and vibe
+- Source material to adapt (if any — see [literary-adaptation.md](../modules/literary-adaptation.md))
 
 **If no briefing is provided**, or the briefing is missing critical information, use AskUserQuestion to gather:
 
@@ -51,8 +52,9 @@ Questions to ask:
    - Adult-themed/NSFW
 ```
 
-**Use TodoWrite** to create a planning checklist:
+**Use TaskCreate** to create a planning checklist:
 - [ ] Gather requirements
+- [ ] Complete research checklist ([campaign-research-checklist.md](../checklists/campaign-research-checklist.md))
 - [ ] Choose campaign type
 - [ ] Create campaign overview
 - [ ] Design chapters
@@ -61,6 +63,7 @@ Questions to ask:
 - [ ] Detail locations
 - [ ] Create factions
 - [ ] Write briefing document
+- [ ] Create image prompts and generate art with dndig
 - [ ] Quality check
 
 ### Step 2: Choose Campaign Type
@@ -156,16 +159,18 @@ For each chapter, using [templates/chapter-template.md](../templates/chapter-tem
 
 **5.2: Break Into Scenes**
 - Each chapter should have 3-5 scenes
+- Follow the Session Arc for pacing (see [session-pacing.md](../modules/session-pacing.md)): Cold Open → Rising Action → Climax → Falling Action → Cliffhanger
 - Each scene should have:
-  - Read-aloud description
+  - Read-aloud description (follow [creative-voice.md](../modules/creative-voice.md) guidelines)
   - DM information
   - Possible player actions
   - Encounters or challenges
   - Connections to other scenes
 
 **5.3: Design Encounters**
-- Mix combat, social, and exploration encounters
-- Ensure variety within each chapter
+- Follow [encounter-design.md](../modules/encounter-design.md) for each encounter
+- Use the Encounter Design Checklist (dramatic question, stakes, environment, approaches, escalation, connection)
+- Track variety with the Encounter Variety Matrix
 - Match difficulty to party level
 - Provide multiple solutions
 
@@ -273,18 +278,22 @@ Using [templates/README.md](../templates/README.md):
 
 ### Step 10: Create Image Prompts
 
-For key locations, NPCs, and scenes:
+For key locations, NPCs, and scenes. See [dndig-reference.md](../modules/dndig-reference.md) for full tool documentation.
 
-**10.1: Identify Visual Moments**
+**10.1: Create Campaign Style File**
+- Create `art/campaign-style.md` with visual style instructions for consistency across all artwork
+- Reference this file from every prompt's `instructions` field
+
+**10.2: Identify Visual Moments**
 - Opening scenes
 - Important locations
 - Major NPCs
 - Climactic encounters
 
-**10.2: Write Prompts**
-- Based on read-aloud descriptions
-- Include style guidance
-- Specify mood and atmosphere
+**10.3: Write Prompts**
+- Base on read-aloud descriptions
+- Include style guidance, composition, lighting, mood
+- Use appropriate aspect ratios per content type (see dndig reference)
 
 **Format:**
 ```markdown
@@ -292,10 +301,17 @@ For key locations, NPCs, and scenes:
 title: filename
 aspect_ratio: "16:9"
 resolution: 2K
-instructions: style-file.md
+instructions: campaign-style.md
+references:
+  - refs/style-ref.jpg
 ---
 
 Detailed visual description based on scene...
+```
+
+**10.4: Generate Images**
+```bash
+dndig campaigns/[campaign-name]/art/[prompt-file].md --verbose
 ```
 
 ### Step 11: Add Supporting Materials
@@ -432,7 +448,7 @@ Provide the DM with:
 
 ### Use Todo List
 
-Track progress with TodoWrite:
+Track progress with TaskCreate:
 ```
 [ ] Requirements gathered
 [ ] Campaign type chosen

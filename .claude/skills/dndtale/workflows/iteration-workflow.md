@@ -413,7 +413,7 @@ Add a DM note documenting what changed and why:
 
 ### Track Your Changes
 
-Use TodoWrite for complex iterations:
+Use TaskCreate for complex iterations:
 
 ```
 [ ] Read all affected files
